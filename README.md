@@ -98,5 +98,5 @@ Step-13 GET COMMAND http://localhost:8000/view/ and you will see the every data 
 },
 ]
 
-Step-14 DELETE COMMAND http://localhost:8000/delete/3 so id 3 will be deleted.
+Step-14 DELETE COMMAND http://localhost:8000/delete/3/ so id 3 will be deleted.
 Step-15 PUT COMMAND- i have not used the put command. basically put command is used for update. in this also we need to pass the id in the url
