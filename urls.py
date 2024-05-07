@@ -1,10 +1,10 @@
-from django.contrib import admin
 from django.urls import path
-from StudentApp import views
+from . import views
 
 urlpatterns = [
     path('insert/', views.studentApi),
     path('view/', views.studentApi),
     path('delete/<int:id>/', views.studentApi),
-    path('admin/', admin.site.urls),
+    path('update/<int:id>/', views.studentApi),
+    # Add other URL patterns specific to the StudentApp app here
 ]
