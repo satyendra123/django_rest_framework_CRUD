@@ -82,13 +82,13 @@ path('admin/', admin.site.urls),
 
 Step-14 after that open the terminal and run the code by writing python manage.py runserver
 
-Step-12 POST COMMAND - now we will open the postman and send the data for testing give this url http://localhost:8000/insert/ and the data in the body raw json {
+Step-12 POST COMMAND - now we will open the postman and send the data for testing give this url http://localhost:8000/student/insert/ and the data in the body raw json {
     "name": "John Doe",
     "address": "123 Main St",
     "fee": 5000
 } then after clicking on the send then "Added Successfully" message will be printed on the postman. also you can check by going into the database whether the data is inserted or not
 
-Step-13 GET COMMAND http://localhost:8000/view/ and you will see the every data fetched from the database and printed on the postman like this 
+Step-13 GET COMMAND http://localhost:8000/student/view/ and you will see the every data fetched from the database and printed on the postman like this 
 [
 {
 "id": 3,
@@ -98,5 +98,5 @@ Step-13 GET COMMAND http://localhost:8000/view/ and you will see the every data 
 },
 ]
 
-Step-14 DELETE COMMAND http://localhost:8000/delete/3/ so id 3 will be deleted.
+Step-14 DELETE COMMAND http://localhost:8000/student/delete/3/ so id 3 will be deleted.
 Step-15 PUT COMMAND- i have not used the put command. basically put command is used for update. in this also we need to pass the id in the url
