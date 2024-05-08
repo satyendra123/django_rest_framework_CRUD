@@ -104,3 +104,10 @@ Step-15 PUT COMMAND- i have not used the put command. basically put command is u
 for the esp32 we will use the postman 
 POST request- http://127.0.0.1:8000/esp32/api/sensor-data/          { "device_id": "Device001", "sensor_type": "humidity", "value": 23.0 }
 GET request - http://127.0.0.1:8000/esp32/get_sensor_data/          
+
+for user registration, login, user, logout functionality using jwt authentication
+for registration= http://localhost:8000/api/register/         { "name": "sagar", "email": "sagarsingh542@gmail.com", "password": "Sagar123" }
+for login = http://localhost:8000/api/login/                  { "email": "sagarsingh542@gmail.com", "password": "Sagar123" } ye hume response me jwt token dega
+for login user details = http://localhost:8000/api/user/      isme hum token header me Authorization likhenge aur aur value me token ki value likhkar send par click karenge
+
+for logout = ttp://localhost:8000/api/logout/
