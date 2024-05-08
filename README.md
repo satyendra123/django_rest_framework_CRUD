@@ -100,3 +100,7 @@ Step-13 GET COMMAND http://localhost:8000/student/view/ and you will see the eve
 
 Step-14 DELETE COMMAND http://localhost:8000/student/delete/3/ so id 3 will be deleted.
 Step-15 PUT COMMAND- i have not used the put command. basically put command is used for update. in this also we need to pass the id in the url
+
+for the esp32 we will use the postman 
+POST request- http://127.0.0.1:8000/esp32/api/sensor-data/          { "device_id": "Device001", "sensor_type": "humidity", "value": 23.0 }
+GET request - http://127.0.0.1:8000/esp32/get_sensor_data/          
